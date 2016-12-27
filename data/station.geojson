@@ -1,1 +1,214 @@
-{   "type": "FeatureCollection",   "features": [  {    "type": "Feature",    "geometry": {       "type": "Point",       "coordinates":  [ 135.229789,34.888964 ]    },    "properties": {    "properties":"",    "Id":"0",    "N02_001":11,    "N02_002":2,    "line":"福知山線",    "company":"西日本旅客鉄道",    "station_name":"三田駅",    "shubetsu":"JR西日本",    "lon":135.229789,    "lat":34.888964    }  },  {    "type": "Feature",    "geometry": {       "type": "Point",       "coordinates":  [ 135.208353,34.910111 ]    },    "properties": {    "properties":"",    "Id":"0",    "N02_001":11,    "N02_002":2,    "line":"福知山線",    "company":"西日本旅客鉄道",    "station_name":"新三田駅",    "shubetsu":"JR西日本",    "lon":135.208353,    "lat":34.910111    }  },  {    "type": "Feature",    "geometry": {       "type": "Point",       "coordinates":  [ 135.191275,34.928428 ]    },    "properties": {    "properties":"",    "Id":"0",    "N02_001":11,    "N02_002":2,    "line":"福知山線",    "company":"西日本旅客鉄道",    "station_name":"広野駅",    "shubetsu":"JR西日本",    "lon":135.191275,    "lat":34.928428    }  },  {    "type": "Feature",    "geometry": {       "type": "Point",       "coordinates":  [ 135.156039,34.947478 ]    },    "properties": {    "properties":"",    "Id":"0",    "N02_001":11,    "N02_002":2,    "line":"福知山線",    "company":"西日本旅客鉄道",    "station_name":"相野駅",    "shubetsu":"JR西日本",    "lon":135.156039,    "lat":34.947478    }  },  {    "type": "Feature",    "geometry": {       "type": "Point",       "coordinates":  [ 135.155408,34.977011 ]    },    "properties": {    "properties":"",    "Id":"0",    "N02_001":11,    "N02_002":2,    "line":"福知山線",    "company":"西日本旅客鉄道",    "station_name":"藍本駅",    "shubetsu":"JR西日本",    "lon":135.155408,    "lat":34.977011    }  },  {    "type": "Feature",    "geometry": {       "type": "Point",       "coordinates":  [ 135.229969,34.888447 ]    },    "properties": {    "properties":"",    "Id":"0",    "N02_001":12,    "N02_002":4,    "line":"公園都市線",    "company":"神戸電鉄",    "station_name":"三田駅",    "shubetsu":"神電",    "lon":135.229969,    "lat":34.888447    }  },  {    "type": "Feature",    "geometry": {       "type": "Point",       "coordinates":  [ 135.229528,34.881789 ]    },    "properties": {    "properties":"",    "Id":"0",    "N02_001":12,    "N02_002":4,    "line":"公園都市線",    "company":"神戸電鉄",    "station_name":"三田本町駅",    "shubetsu":"神電",    "lon":135.229528,    "lat":34.881789    }  },  {    "type": "Feature",    "geometry": {       "type": "Point",       "coordinates":  [ 135.220019,34.876886 ]    },    "properties": {    "properties":"",    "Id":"0",    "N02_001":12,    "N02_002":4,    "line":"公園都市線",    "company":"神戸電鉄",    "station_name":"横山駅",    "shubetsu":"神電",    "lon":135.220019,    "lat":34.876886    }  },  {    "type": "Feature",    "geometry": {       "type": "Point",       "coordinates":  [ 135.202325,34.885517 ]    },    "properties": {    "properties":"",    "Id":"0",    "N02_001":12,    "N02_002":4,    "line":"公園都市線",    "company":"神戸電鉄",    "station_name":"フラワータウン駅",    "shubetsu":"神電",    "lon":135.202325,    "lat":34.885517    }  },  {    "type": "Feature",    "geometry": {       "type": "Point",       "coordinates":  [ 135.189675,34.901642 ]    },    "properties": {    "properties":"",    "Id":"0",    "N02_001":12,    "N02_002":4,    "line":"公園都市線",    "company":"神戸電鉄",    "station_name":"南ウッディタウン駅",    "shubetsu":"神電",    "lon":135.189675,    "lat":34.901642    }  },  {    "type": "Feature",    "geometry": {       "type": "Point",       "coordinates":  [ 135.183589,34.909833 ]    },    "properties": {    "properties":"",    "Id":"0",    "N02_001":12,    "N02_002":4,    "line":"公園都市線",    "company":"神戸電鉄",    "station_name":"ウッディタウン中央駅",    "shubetsu":"神電",    "lon":135.183589,    "lat":34.909833    }  }]}
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 135.229789,34.888964 ]
+    },
+    "properties": {
+    "properties":"",
+    "Id":"0",
+    "N02_001":11,
+    "N02_002":2,
+    "line":"福知山線",
+    "company":"西日本旅客鉄道",
+    "station_name":"三田駅",
+    "shubetsu":"JR西日本",
+    "lon":135.229789,
+    "lat":34.888964
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 135.208353,34.910111 ]
+    },
+    "properties": {
+    "properties":"",
+    "Id":"0",
+    "N02_001":11,
+    "N02_002":2,
+    "line":"福知山線",
+    "company":"西日本旅客鉄道",
+    "station_name":"新三田駅",
+    "shubetsu":"JR西日本",
+    "lon":135.208353,
+    "lat":34.910111
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 135.191275,34.928428 ]
+    },
+    "properties": {
+    "properties":"",
+    "Id":"0",
+    "N02_001":11,
+    "N02_002":2,
+    "line":"福知山線",
+    "company":"西日本旅客鉄道",
+    "station_name":"広野駅",
+    "shubetsu":"JR西日本",
+    "lon":135.191275,
+    "lat":34.928428
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 135.156039,34.947478 ]
+    },
+    "properties": {
+    "properties":"",
+    "Id":"0",
+    "N02_001":11,
+    "N02_002":2,
+    "line":"福知山線",
+    "company":"西日本旅客鉄道",
+    "station_name":"相野駅",
+    "shubetsu":"JR西日本",
+    "lon":135.156039,
+    "lat":34.947478
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 135.155408,34.977011 ]
+    },
+    "properties": {
+    "properties":"",
+    "Id":"0",
+    "N02_001":11,
+    "N02_002":2,
+    "line":"福知山線",
+    "company":"西日本旅客鉄道",
+    "station_name":"藍本駅",
+    "shubetsu":"JR西日本",
+    "lon":135.155408,
+    "lat":34.977011
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 135.229969,34.888447 ]
+    },
+    "properties": {
+    "properties":"",
+    "Id":"0",
+    "N02_001":12,
+    "N02_002":4,
+    "line":"公園都市線",
+    "company":"神戸電鉄",
+    "station_name":"三田駅",
+    "shubetsu":"神電",
+    "lon":135.229969,
+    "lat":34.888447
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 135.229528,34.881789 ]
+    },
+    "properties": {
+    "properties":"",
+    "Id":"0",
+    "N02_001":12,
+    "N02_002":4,
+    "line":"公園都市線",
+    "company":"神戸電鉄",
+    "station_name":"三田本町駅",
+    "shubetsu":"神電",
+    "lon":135.229528,
+    "lat":34.881789
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 135.220019,34.876886 ]
+    },
+    "properties": {
+    "properties":"",
+    "Id":"0",
+    "N02_001":12,
+    "N02_002":4,
+    "line":"公園都市線",
+    "company":"神戸電鉄",
+    "station_name":"横山駅",
+    "shubetsu":"神電",
+    "lon":135.220019,
+    "lat":34.876886
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 135.202325,34.885517 ]
+    },
+    "properties": {
+    "properties":"",
+    "Id":"0",
+    "N02_001":12,
+    "N02_002":4,
+    "line":"公園都市線",
+    "company":"神戸電鉄",
+    "station_name":"フラワータウン駅",
+    "shubetsu":"神電",
+    "lon":135.202325,
+    "lat":34.885517
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 135.189675,34.901642 ]
+    },
+    "properties": {
+    "properties":"",
+    "Id":"0",
+    "N02_001":12,
+    "N02_002":4,
+    "line":"公園都市線",
+    "company":"神戸電鉄",
+    "station_name":"南ウッディタウン駅",
+    "shubetsu":"神電",
+    "lon":135.189675,
+    "lat":34.901642
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 135.183589,34.909833 ]
+    },
+    "properties": {
+    "properties":"",
+    "Id":"0",
+    "N02_001":12,
+    "N02_002":4,
+    "line":"公園都市線",
+    "company":"神戸電鉄",
+    "station_name":"ウッディタウン中央駅",
+    "shubetsu":"神電",
+    "lon":135.183589,
+    "lat":34.909833
+    }
+  }
+]
+}
