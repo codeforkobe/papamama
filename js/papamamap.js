@@ -391,7 +391,7 @@ Papamamap.prototype.getPopupContent = function(feature)
         content += '<td>';
         var proof = feature.get('証明') ? feature.get('証明') : feature.get('Proof');
         if (proof !== undefined && proof !== null) {
-            content += '証明書発行済<a href="http://www.city.sapporo.jp/kodomo/kosodate/ninkagai_shisetsu.html" target="_blank">(詳細)</a>';
+            content += '証明書発行済<a href="http://www.city.sanda.lg.jp/kodomoshien/ninkagai.html" target="_blank">(詳細)</a>';
         }
         content += '</td>';
         content += '</tr>';
@@ -402,7 +402,7 @@ Papamamap.prototype.getPopupContent = function(feature)
         content += '<td>';
         var vacancy = feature.get('Vacancy') ? feature.get('Vacancy') : feature.get('Vacancy');
         if (vacancy !== undefined && vacancy !== null) {
-            content += '<a href="http://www.city.sapporo.jp/kodomo/kosodate/l4_01.html" target="_blank">空きあり</a>';
+            content += '<a href="http://www.city.sanda.lg.jp/kodomoshien/ninkahoikushoannai.html" target="_blank">空きあり</a>';
         }
         var vacancyDate = feature.get('VacancyDate');
         if (vacancyDate !== undefined && vacancyDate !== null) {
