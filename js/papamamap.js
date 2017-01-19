@@ -178,6 +178,28 @@ Papamamap.prototype.addNurseryFacilitiesLayer = function(facilitiesData)
             style: ninkagaiStyleFunction
         })
     );
+    // 小規模
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerSmall',
+            style: smallStyleFunction
+        })
+    );
+    // こども園
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerKodomo',
+            style: kodomoStyleFunction
+        })
+    );
     // 認可
     this.map.addLayer(
         new ol.layer.Vector({
