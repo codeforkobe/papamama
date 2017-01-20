@@ -423,11 +423,12 @@ Papamamap.prototype.getPopupContent = function(feature)
         content += '<th>欠員</th>';
         content += '<td>';
         var vacancy = feature.get('Vacancy') ? feature.get('Vacancy') : feature.get('Vacancy');
-        if (vacancy !== undefined && vacancy !== null) {
+        if (vacancy !== undefined && vacancy !== null && vacancy !== '') {
+            // TODO: This URL should be parameterized
             content += '<a href="http://www.city.sanda.lg.jp/kodomoshien/ninkahoikushoannai.html" target="_blank">空きあり</a>';
         }
         var vacancyDate = feature.get('VacancyDate');
-        if (vacancyDate !== undefined && vacancyDate !== null) {
+        if (vacancyDate !== undefined && vacancyDate !== null && vacancyDate !== '') {
             content += " (" + vacancyDate + ")";
         }
         content += '</td>';
