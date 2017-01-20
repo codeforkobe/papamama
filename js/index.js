@@ -223,16 +223,6 @@ $('#mainPage').on('pageshow', function() {
 		papamamap.switchLayer(this.id, $(this).prop('checked'));
 	});
 
-	// 小規模保育所
-	$('#cbSmall').click(function() {
-		papamamap.switchLayer(this.id, $(this).prop('checked'));
-	});
-
-	// こども園
-	$('#cbKodomo').click(function() {
-		papamamap.switchLayer(this.id, $(this).prop('checked'));
-	});
-
 	// 中学校区チェックボックスのイベント定義
 	$('#cbMiddleSchool').click(function() {
 		layer = map.getLayers().item(1);
@@ -409,8 +399,6 @@ $('#mainPage').on('pageshow', function() {
 	{
 		papamamap.switchLayer($('#cbNinka').prop('id'), checkObj.ninka);
 		papamamap.switchLayer($('#cbNinkagai').prop('id'), checkObj.ninkagai);
-		papamamap.switchLayer($('#cbSmall').prop('id'), checkObj.small);
-		papamamap.switchLayer($('#cbKodomo').prop('id'), checkObj.kodomo);
 		papamamap.switchLayer($('#cbKindergarten').prop('id'), checkObj.kindergarten);
 		$('#cbNinka').prop('checked', checkObj.ninka).checkboxradio('refresh');
 		$('#cbNinkagai').prop('checked', checkObj.ninkagai).checkboxradio('refresh');
